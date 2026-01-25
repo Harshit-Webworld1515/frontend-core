@@ -1,0 +1,50 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 60px;
+    border: 2px solid black;
+    /* box-shadow: 2px 2px 30px greenyellow; */
+
+
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a; 
+}
+div:nth-of-type(3n){
+    background-color:#ebb02d;
+}
+#one{
+    transform: rotate(47deg);
+    margin: 0 auto;/*cheezen center me lane ko kiya jata ha */
+
+}
+#two{
+    transform: scale(.5);
+    /* transform: translateX(167px); */
+    margin: 0 auto;/*cheezen center me lane ko kiya jata ha */
+}
+#three{
+    transform: translate(100px,-100px);
+    margin: 0 auto;/*cheezen center me lane ko kiya jata ha */
+}
+#four{
+    transform: skew(30deg);
+    margin: 0 auto;/*cheezen center me lane ko kiya jata ha */
+}
+#five{
+    transform: skew(-30deg);
+    margin: 0 auto;/*cheezen center me lane ko kiya jata ha */
+}
+p {
+  box-shadow:
+    0 0 0 2em #f4aab9,
+    0 0 0 4em #66ccff;
+  margin-top: 40px;
+  padding: 1em;
+  border: 2px solid black;
+}

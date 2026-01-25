@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <header> <h1>Attribute of input tag in forms</h1></header>
+    <main>
+        <form action="/action">
+            <section>
+                <h2>checkbox</h2>
+                <label for="age"><B>Q1. </B>I am over 18</label>
+                <input type="checkbox"id="age" name="q"value="agreed"/>
+            </section><hr>
+            <h2>Grouping of radioboxes</h2>
+            <p><b>Q2.</b>choose your favorite fruit ?</p>
+            <div>
+                <label for="apple">apple</label>
+                <input type="radio" id="apple"name="fruit" value="apple">
+                <label for="banana">banana</label>
+                <input type="radio" id="banana"name="fruit" value="banana">
+                <label for="mango">mango</label>
+                <input type="radio" id="mango"name="fruit" value="mango">
+                <label for="date">date</label>
+                <input type="radio" id="date"name="fruit" value="date">        
+            </div><hr>
+            <!-- for multiple option tick chhose checkbox -->
+             <div>
+                <h2>Grouping of checkboxes</h2>
+                <p><b>Q3. </b>select any three subject ?</p>
+                <input type="checkbox"id="subji" name="subject"value="Physics"/>
+                <label for="subji"> Physics</label><br>
+                <input type="checkbox"id="subji" name="subject"value="chemistry"/>
+                <label for="subji"> chemistry</label><br>
+                <input type="checkbox"id="subji" name="subject"value="math"/>
+                <label for="subji"> mathematics</label><br>
+                <input type="checkbox"id="subji" name="subject"value="biology"/>
+                <label for="subji"> biology</label>
+             </div><br>
+             <input type="submit" value="click here">
+        </form>
+    </main>  
+</body>
+</html>

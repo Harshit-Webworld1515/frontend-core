@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd question</title>
+</head>
+<body>
+    <header>
+        <h1>recreating form using html</h1>
+    </header>
+    <main>
+        <form action="/action">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                Sex :
+                <label for="sex">Male</label>
+                <input type="radio" id="sex" name="sex" value=" Male">
+                <label for="seex">Female</label>
+                <input type="radio" id="seex" name="sex" value="Female">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country"> 
+                    <option value="select">Select your option</option>
+                    <option value="ind">india</option>
+                    <option value="iran">iran</option>
+                    <option value="china">china</option>
+                    <option value="iraq">iraq</option>
+                    <option value="uae">uae</option>
+                    <option value="pak">pakistan</option>
+                </select>
+            </div>
+            <div>
+                <label for="mass">Massage: </label><br>
+                <textarea name="sms" id="mass"></textarea>
+            </div>
+            <div>
+                <label for="subs">Subscribe?  </label>
+                <input type="checkbox" name="isSubscribe" id="subs" value="yes">
+            </div><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>   
+</body>
+</html>

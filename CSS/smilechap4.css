@@ -1,0 +1,27 @@
+.bigger{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 65px;
+    border: 2px solid black;
+}
+.eye{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 44px;
+}
+.mouth{
+    width: 37px;
+    height: 15px;
+    border-radius:0 0 35px 35px;
+    background-color: red;
+    position: relative;
+    top: 25px;
+    left: 59px;
+    border: 2px solid red;
+}

@@ -1,0 +1,30 @@
+.inner{
+    height: 50px;
+    width: 50px;
+    border-radius :50% ;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: red;
+}
+.inner2{
+    height: 50px;
+    width: 50px;
+    border-radius :50% ;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: yellow;
+}
+.inner3{
+    height: 50px;
+    width: 50px;
+    border-radius :50% ;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: green;
+}
+.outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    margin: 50px;
+}

@@ -1,0 +1,11 @@
+        h3{
+            color: orange;
+            background-color: blueviolet;
+        }
+        p{
+            color: rgb(241, 16, 188);
+            /* color system rgb  */
+        }
+        button{
+            background-color: gold;
+        }

@@ -1,0 +1,32 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-end;
+    /* flex-wrap: wrap; */
+    align-items: center; /* it work on Items Single flex line no wrap Individual items */
+    /* align-content: space-around; //when	Multiple lines	When wrapping is used then it affect Entire lines as groups */
+}
+#bhagwa{
+    align-self: flex-end;
+    flex-basis: 60px;
+    flex-grow: 2;
+}
+#laal{
+    /* flex-basis: 190px; */
+    flex: 2 143px;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 95px;
+    width: 103px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

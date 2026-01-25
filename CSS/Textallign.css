@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    text-decoration:underline overline rgb(236, 236, 13);
+    font-family: fantasy;
+}
+p{
+    text-align: justify;
+    color: rgb(255, 00, 00);
+    font-weight: 400;
+    text-decoration:underline;
+    font-size: 18px;
+    font-family:serif;
+}
+form{
+    text-align: center;
+}
+table{
+    text-align: right;
+    color: blueviolet;
+    text-decoration: wavy underline gold;
+}
+blockquote{
+    text-align: center;
+    color: rgb(159, 61, 144);
+    text-decoration: underline dashed;
+}
+label{
+    text-align: right;
+    color: brown;
+    text-decoration: line-through;
+    font-family: Impact;
+}
+input{
+    background-color: rgb(216, 231, 135);
+    color: #ffffff;
+}
+textarea{
+    background: #000;
+    text-decoration: underline dotted;
+    background-color: #ffff38;
+}
+footer{
+    text-align: end;
+    text-decoration: underline overline;
+    color: blue;
+}
+h2{
+    font-weight: 100;
+    text-align: center;
+    color: rgb(0,0,0);
+    text-decoration: underline double yellowgreen;
+    font-size:25px;
+    font-family: Impact;
+}
+thead{
+    color: #000;
+    text-align: justify
+    ;
+    font-family: cursive;
+}

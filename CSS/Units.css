@@ -1,0 +1,13 @@
+#outer{
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+    margin: 25%;
+}
+#inner{
+    height: 50%;
+    width: 50%;
+    background-color: #fff;
+    margin-left: 25%;
+    border: 2px dotted black;
+}
