@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+div {
+    height: 150px;
+    width: 550px;
+    border: 2px solid black;
+    margin: 20px auto;   /* yahi div ko row ke center me la dega */
+    display: flex;
+    justify-content: center; /* div ke andar ka content center */
+}

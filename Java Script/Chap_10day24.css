@@ -1,0 +1,11 @@
+div{
+    background-color: pink;
+    height: 200px;
+    width: 400px;
+}
+div ul{
+    background-color: blue;
+}
+div li{
+    background-color: greenyellow;
+}
