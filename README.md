@@ -36,11 +36,20 @@ The purpose of this repository is to:
 ---
 
 ## 📂 Folder Structure
+
+```
 Frontend Dev/
-│
-├── HTML/          # HTML practice files
-├── CSS/           # CSS styling exercises
-└── JavaScript/    # JavaScript projects & scripts
+├── HTML/
+│   ├── Chap_1.html
+│   ├── Chap_2.html
+│   └── ...
+├── CSS/
+│   ├── Chap_1.css
+│   └── ...
+├── Java Script/
+│   ├── Chap_1.js
+│   └── ...
+└── README.md
 
 
 ---
