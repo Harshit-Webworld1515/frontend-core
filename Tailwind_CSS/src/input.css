@@ -1,2 +1,5 @@
 @import "tailwindcss";
 @source "../index.html";
+.box{
+    @apply border-2
+}
